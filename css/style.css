@@ -1,0 +1,76 @@
+body {
+     font-family: cursive;
+     margin: 0;
+     padding: 0;
+     letter-spacing: 1px;
+     background: url("../img/change.jpg");
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+}
+
+.container{
+    background: rgba(103,58,183,0.7);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 350px;
+}
+.form_content, .login_form{
+    position: relative;
+    width: 50%;
+    height: 350px;
+    box-sizing: border-box;
+    float: left;
+}
+.login_form{
+    background: #ffffff;
+    padding: 30px
+}
+div.login_form input{
+    width: 100%;
+    margin-bottom:10px;
+    padding: 5px;   
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+div.login_form input[type="submit"] 
+{
+    background:#673ab7;
+    color: white;
+    font-size: 1em;
+}
+div.login_form input[type="submit"]:hover {
+    background: #ff0057;
+    cursor:pointer;
+}
+div.form_content{
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+a.btn{
+    text-decoration: none;
+    color:white;
+    background: #ff0057;
+    display: inline-block;
+    padding: 5px;
+    font-size:15px;
+    border-radius: 17px;
+}
+div.login_form h3{
+   text-align: center;
+}
+div.login_form a{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+div.form_content h2{
+    text-align: center;
+    text-transform: uppercase;
+}
